@@ -1,0 +1,96 @@
+#bytes:collection related data type
+#stores group of bytes numbers (0 to 255)
+#bytes() function
+# x = [1,2,34,4,5] #list
+# b = bytes(x)
+
+# print(type(b))
+# # print(x)
+# print(b) 
+# #immutable 
+# print(b[0])
+
+# print(b[1])
+
+# # b[0] = 67
+# # print(b[0])
+
+# name = "John"
+# byte_name = bytes(name,encoding="utf-8")
+# print(byte_name)
+# numbers_bytes = b"12345"
+# print(numbers_bytes)
+
+#bytearray:same as bytes but mutable/changeable
+
+# numbers = [1,2,3,4,5]
+# byte_array = bytearray(numbers)
+# print(byte_array)
+# print(byte_array[0])
+# print(type(byte_array))
+
+# #mutable
+# byte_array[0] = 10
+# print(byte_array[0])
+
+# list data types
+#list: stores groups of values
+#stored values insertion order is always preserved
+#duplicates values are allowed
+
+# numbers = [1,2,3,4,5,1,2]
+# print(numbers)
+
+#allowed heterogenous(different data types values) values 
+
+# mixed_values = [1,True,3.14,"hello",20+30j]
+# print(mixed_values)
+
+#growable(add/remove) in nature 
+# names = [] #empty list
+# names.append("Rose")
+# names.append("John")
+# print(names)
+# names.append("Mike")
+# names.append("Rose")
+
+
+
+# print(names)
+
+# #remove
+
+# names.remove("Rose")
+
+# print(names)
+
+l1 = [200,"hi",True]
+
+# l2 = l1 *2 #[200,"hi",True,200,"hi",True]
+# print(l2)
+
+#access values:
+# print(l1[0])
+# print(l1[2])
+# print(l1[-6]) #IndexError: list index of of range
+
+#slicing: parts
+print(l1[0:])
+print(len(l1)) #len(list): to count how many elements present in list
+
+
+l2 = [1,2,3]
+l3 = [4,5,6]
+
+l4 = l2 + l3
+print(l4)
+l2.append(l3)
+print(l2)
+
+
+
+
+
+
+
+

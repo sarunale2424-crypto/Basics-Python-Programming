@@ -69,12 +69,65 @@
 # print(int("123.35")) #Error occured: ValueError
 
 
-num1 = 450
+# num1 = 450
 
-num2String  = "500"
+# num2String  = "500"
 
-sum = num1 + int(num2String)
-print("The sum is ",sum)
+# sum = num1 + int(num2String)
+# print("The sum is ",sum)
+
+#float()
+# print(float(50)) #50.0
+# print(float(10+20j)) # Error occurred
+# print(float(True)) #1.0
+# print(float(False)) #0.0
+# print(float("hello")) # error occured : ValueError
+# print(float("20")) #20.0
+# print(float("3.14")) #3.14
+
+#complex: convert other type to complex type
+#form1: complex(a) => a+0j
+#form2:complex(a,b) => a+bj
+
+#form1:complex(a) => a+0j
+# print(complex(4)) # 4+0j
+# print(complex(23.5)) # 23.5+0j
+# print(complex(True)) #1+0j
+# print(complex(False)) #0+0j = 0j
+# print(complex("30"))  #30+0j
+# print(complex("10.5")) # 10.5 + 0j
+# print(complex("five")) # error occured : ValueError
+
+#form2:complex(a,b) => a+bj
+# print(complex(2,3)) # 2+3j
+# print(complex(1.5,2.4)) # 1.5+2.4j
+# print(complex(True,True)) #1+1j
+# print(complex("100","200")) #error occurred
+# print(complex(10,"20")) #error occurred
+# print(complex("10",20)) #error
+# print(complex(10,24.5)) # 10+24.5j
+
+#bool()
+#for int argument => 0: False, Non 0 :True
+
+# print(bool(5))
+#for float argument=> 0: False,Non 0: True
+# print(bool(0.0))
+# print(bool(3.4))
+# print(bool(-13.4))
+
+#str argument :> empty string : False , not empty : True
+
+# print(bool(""))
+# print(bool("abc"))
+# print(bool(" "))
+
+#for complex argument=> real,imag both 0 : False,Non 0 => True
+
+# print(bool(10+20j))
+# print(bool(0+0j))
+
+
 
 
 
