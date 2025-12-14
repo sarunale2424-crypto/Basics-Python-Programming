@@ -38,5 +38,7 @@ if is_available:
     s4.remove(7)
 print(s4)
 
+#  git push -u origin main
+
 
 
